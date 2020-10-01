@@ -1,0 +1,1007 @@
+/* Global */
+/* Materialize font initialization */
+@font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+   src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+        url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
+        url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.brand-logo {
+    height: inherit;
+    max-height: 64px;
+}
+
+.brand-logo img {
+    height: 100%;
+    padding: 5px 0px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Global */
+img.cardImage.materialboxed.active {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.grecaptcha-badge {
+    /* visibility: hidden; */
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+    background-color: #5c6bc0;
+}
+
+.content {
+    padding: 10px 10px; 
+    padding-bottom: 100px;
+
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.content .row div.col {
+    padding: 2px;
+}
+
+.contentItem {
+    padding-top: 5px;
+    padding: 0px 10px;
+}
+
+.changeButton {
+    float: right;
+
+    top: 0px;
+    margin-top: -15px !important;
+}
+
+.singleLine {
+    display: inline;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bottom-gap {
+    padding-bottom: 10px;
+}
+
+h6 {
+    margin-bottom: 0px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+p.fieldInfo {
+    color: white;
+    font-size: 10px;
+    
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin-left: -5px;
+    margin-right: 15px;
+
+    margin-bottom: 0px;
+}
+
+p.fieldResult {
+    color: white;
+    font-size: 12px;
+    float: right;
+    
+    position: relative;
+    top: -20px;
+    right: 0px !important;
+
+    margin-bottom: -15px;
+}
+
+p.fieldResult.leftAlign {
+    float: left !important;
+    top: -12px;
+}
+
+p.modalFieldResult {
+    color: white;
+    font-size: 12px;
+    float: right;
+    
+    position: relative;
+    top: -20px;
+
+    margin-bottom: -15px;
+}
+
+p.title {
+    padding: 0px;
+    margin: 0px;
+
+    font-size: 20px;
+}
+
+/* Mini myAccounts */
+.miniProfilePicture {
+    min-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    background-color: #5c6bc0;
+
+    float: left;
+}
+
+.miniProfileDesc {
+    float: left;
+    padding: 5px;
+    max-height: 50px;
+
+    color: white;
+}
+
+.miniProfileDesc p {
+    margin: 0px;
+}
+
+/* Red text */
+.fieldWarning {
+    color: salmon !important;
+}
+
+.fieldResult {
+    text-align: right;
+    margin-right: -10px;
+}
+
+.btn-flat {
+    background-color: #7986cb;
+    color: white;
+
+    text-align: center;
+
+    color: white;
+}
+
+.btn {
+    background-color: #7986cb;
+    color: white;
+
+    text-align: center;
+
+    color: white;
+
+    width: 100%;
+}
+
+.btn, .btn:visited, .btn:hover, .btn:active, .btn:focus {
+    background-color: #7986cb;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+/* Drop-down */
+.dropdown-content a {
+    color: white !important;
+    background-color: #7986cb;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #3949ab;
+}
+
+/* Modal */
+.modal {
+    display: block;
+    position: fixed;
+
+    z-index: 3;
+    left: 0px;
+    top: 0px;
+
+    min-width: 100%;
+    min-height: 100vh;
+    height: auto;
+
+    margin: 0px;
+    padding: 0px;
+
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal > .modalContent {
+    background-color: #3949ab;
+    padding: 10px;
+
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+
+    margin: 0px auto;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    top: 50%; 
+
+    box-shadow: -1px 1px 5px black;
+    
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+
+.modal > .modalContent p.output {
+    color: white;
+    text-align: center;
+}
+
+.modal .closeBtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    color: white;
+    background-color: salmon;
+    display: inline-block;
+}
+
+/* Loading modal */
+.loadingModal {
+    position: fixed;
+
+    z-index: 4;
+    left: 0px;
+    top: 0px;
+
+    min-width: 100%;
+    min-height: 100vh;
+    height: auto;
+
+    margin: 0px;
+    padding: 0px;
+
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.loadingModal > .loadingModalContent {
+    padding: 10px;
+
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+
+    margin: 0px auto;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    top: 50%; 
+    
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+
+.back {
+    display: block;
+    position: fixed;
+
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+
+    min-width: 100%;
+    min-height: 100vh;
+    height: auto;
+
+    margin: 0px;
+    padding: 0px;
+
+    overflow: auto;
+    background-color: transparent;
+    
+}
+
+/* Footer */
+.footer {
+    background-color: #3949ab;
+
+    position: absolute;
+    bottom: 0px;
+
+    width: 100%;
+    height: 75px;   
+    
+    padding-top: auto;
+
+    color: white;
+    padding: 20px;
+}
+
+/* Card */
+.card-content {
+    padding: 10px !important;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Texts */
+.smaller-text {
+    margin: 0px;
+    font-size: 10px;
+}
+
+.medium-text {
+    margin: 0px;
+    font-size: 15px;
+}
+
+/* Character counter */
+span.character-counter {
+    margin-top: -7px !important;
+}
+
+/* Input */
+.input-field {
+    margin: 5px 0px;
+}
+
+/* Input color */
+.input-field input {
+    color: black;
+    background-color: white !important;
+
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box !important;
+}
+
+/* Input label */
+.input-field label {
+    color: lightgray !important;
+
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box !important;
+}
+
+/* Input label focus color */
+.input-field input:focus + label:after {
+    color: white !important;
+}
+
+/* Input label underline focus color */
+.input-field input:focus {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0px 1px 0px 0px white !important;
+}
+
+/* Input valid color */
+.input-field input.valid {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0px 1px 0px 0px white !important;
+}
+
+/* Input invalid color */
+.input-field input.invalid {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0px 1px 0px 0px red !important;
+}
+
+/* Input valid color */
+.input-field input.valid {
+    border-bottom: 1px solid limegreen !important;
+    box-shadow: 0px 1px 0px 0px limegreen !important;
+}
+
+/* Input icon prefix color */
+.input-field .prefix {
+    color: white;
+}
+
+/* Input icon prefix focus color */
+.input-field .prefix.active {
+    color: white;
+}
+
+/* Input field label */
+label.active {
+    margin: 0px;
+    padding: 0px !important;
+
+    margin-left: -8px;
+}
+
+/* Text area */
+/* Text-area label */
+.input-field textarea {
+    color: black !important;
+    background-color: white;
+
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-sizing: border-box !important;
+
+    margin-bottom: 3px;
+}
+
+/* Inline radio */
+.inlineRadio {
+    display: inline;
+    padding-right: 10px;
+}
+
+/* Text-area label focus color */
+.input-field textarea:focus + label:after {
+    color: white !important;
+}
+
+/* Text-area label underline focus color */
+.input-field textarea:focus {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0px 1px 0px 0px white !important;
+}
+
+/* Checkbox */
+/* Checkbox color */
+.checkbox-white[type="checkbox"].filled-in + span {
+    color: white;
+    display: inline;
+}
+
+/* Checkbox check color (unchecked)*/
+.checkbox-white[type="checkbox"].filled-in + span:before {
+  background: transparent !important;
+}
+
+/* Checkbox check color (checked) */
+.checkbox-white[type="checkbox"].filled-in:checked + span:before{
+  border: 2px solid transparent !important;
+  border-bottom: 2px solid white !important;
+  border-right: 2px solid white !important;
+  background: transparent !important;
+}
+
+/* Checkbox check background color (unchked) */
+.checkbox-white[type="checkbox"].filled-in + span:after {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+
+/* Checkbox check background color (checked) */
+.checkbox-white[type="checkbox"].filled-in:checked + span:after {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+/* Divider */
+.divider {
+    width: 100%;
+
+    border-top: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+/* Radio */
+/* Radio color */
+[type="radio"].with-gap + span {
+    color: white !important;
+}
+
+[type="radio"].with-gap + span:before,
+[type="radio"].with-gap:checked + span:after {
+    border: 2px solid white !important; 
+}
+
+[type="radio"].with-gap:checked + span:after {
+    background-color: salmon;
+}
+
+/* HEADER */
+/* User bar */
+.userBar {
+    background-color: #3949ab ;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+
+    width: 100%; 
+    z-index: 2;
+}
+
+.userBar .btn-flat {
+    z-index: 2;
+}
+
+/* Cart Container */
+.userBar > .cartContainer {
+    color: white;
+    padding: 5px 0px;
+    
+    float: right;
+}
+
+.userBar > .cartContainer > .amountBadge {
+    position: relative;
+
+    text-align: center;
+    font-size: 11px;
+    line-height: 22px;
+
+    width: 22px;
+    height: 22px;
+    background-color: #5c6bc0;
+    display: inline-block;
+
+    top: 0px;
+    right: 0px;
+}
+
+/* User box */
+.userBar > .userContainer {
+    float: right;
+    color: white;
+    padding: 5px 5px;
+}
+
+.userBar > .userContainer button.btn-flat span {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.userBar > .userContainer > .nontificationBadge {
+    position: fixed;
+
+    text-align: center;
+    font-size: 11px;
+    line-height: 22px;
+
+    width: 22px;
+    height: 22px;
+    background-color: salmon;
+    border-radius: 100%;
+    display: inline-block;
+
+    top: 0px;
+    right: 0px;
+
+    z-index: 2;
+}
+
+.userBar > .userContainer > .userInfoContainer {
+    position: fixed;
+    display: none;
+    margin: 0px 5px;
+
+    min-width: 300px;
+    max-width: 300px;
+    height: auto;
+
+    top: 50px;
+    right: 0px;
+
+    background-color: transparent;
+
+    z-index: 2; 
+    padding: 10px;
+    opacity: 0px;
+
+    box-shadow: -1px 1px 5px #3949ab;
+}
+
+.userBar > .userContainer > .userInfoContainer.showInfoContainer {
+    background-color: #5c6bc0;
+    display: inline;
+}
+
+/* == Sign in == */
+.userBar > .userContainer > .userInfoContainer .checkContainer {
+    padding-left: 10px;
+    color: white;
+}
+
+.userBar > .userContainer > .userInfoContainer .forgotPassword, .userBar > .userContainer > .userInfoContainer .signup {
+    padding-left: 10px;
+    color: white;
+}
+
+.userBar > .userContainer > .userInfoContainer .signinResult {
+    text-align: right;
+
+    position: fixed;
+    top: -5px;
+
+    float: right;
+
+    display: block;
+}
+
+.userBar > .userContainer > .userInfoContainer p.signinResult {
+    color: salmon;
+    font-size: 12px;
+    max-height: 10px;
+    
+    position: relative;
+
+    display: inline;
+}
+
+.userBar > .userContainer > .userInfoContainer p.signinText {
+    margin-bottom: -5px;
+}
+
+/* Mini myAccount */
+.userBar > .userContainer > .userInfoContainer .miniProfile {
+    width: 100%;
+    height: auto;
+
+    background-color: #3949ab;
+    padding: 5px;
+
+    display: inline-block;
+}
+
+.userBar > .userContainer > .userInfoContainer .miniProfileInfo {
+    width: 100%;
+    height: auto;
+
+    padding: 5px;
+    margin: 0px;
+    background-color: #3949ab;
+
+    display: inline-block;
+}
+
+.userBar > .userContainer > .userInfoContainer .btn {
+    margin-top: 3px;
+}
+
+/* Navbar */
+nav {
+    max-height: 56px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-wrapper {
+    padding: 0px 10px;
+}
+
+.nav-wrapper ul {
+    display: inline;
+}
+
+/* Sign up */
+.signup {
+    padding: 30px 30px; 
+    padding-bottom: 100px;
+
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+/* Tab color */
+.signup .signupTabs {
+    background-color: #3949ab;
+    height: auto;
+}
+
+.signup .btn {
+    width: 100%;
+    z-index: 0px;
+}
+
+/* Color to the text */
+.signup .signupTabs .signupTab {
+    background-color: #3949ab;
+    color:white;
+
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Background and text color when a tab is active */
+.signup .signupTabs .signupTab.active {
+    background-color:#7986cb;
+    color: white;
+
+    border-bottom: 1px solid white;
+}
+
+.signup .signupContainer {
+    padding: 10px 5px;
+
+    width: 100%;
+    position: relative;
+
+    background-color: #7986cb;
+    height: auto;
+}
+
+.signup .signupContainer .signupInput {
+    padding: 0px 10px 10px 10px;
+}
+
+.signup .signupContainer .input-field.seePasswordable input {
+    color: black;
+    background-color: white !important;
+
+    padding-left: 10px !important;
+    padding-right: 40px !important;
+    box-sizing: border-box !important;
+}
+
+.signup .signupContainer .input-field .seePassword {
+    color: black;
+    
+    position: absolute;
+    right: 0px;
+
+    font-size: 25px;
+}
+
+.signup .signupContainer .tooltip {
+    color: white;
+    font-size: 12px;
+
+    display: inline;
+}
+
+.signup .signupContainer .signupInfo {
+    padding: 0px 20px;
+}
+
+.signup .signupContainer .seePassword {
+    color:white;
+}
+
+.signup .signupContainer .accept {
+    color: white;
+    font-size: 12px;
+    margin-top: -25px;
+    padding-bottom: 5px;
+}
+
+.signup .signupContainer .pressed {
+    color: #3949ab !important;
+}
+
+/* My Account */
+.myAccountSideBar {
+    min-height: 100%;
+    width: 100%;
+    background-color: #3949ab;
+
+    padding: 5px;
+    left: -20;
+}
+
+.myAccountSideBar button.btn.active {
+    background-color: #5c6bc0;
+}
+
+.myAccountSideBar span {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.myAccountMiniProfile {
+    width: 100%;
+    height: auto;
+
+    background-color: #3949ab;
+    padding: 5px;
+
+    display: inline-block;
+}
+
+/* Content */
+.contentcardList {
+    width: 100%;
+
+    float: left;
+}
+
+.contentBG{
+    width: 100%;
+    height: auto;
+
+    background-color: #3949ab;
+    color: white;
+    padding: 10px;
+}
+
+.contentItem .productInfo {
+    padding-left: 10px;
+}
+
+.contentItem .contentCardList .cardContent {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.contentItem .contentCardList .addCard {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    background-color: #5c6bc0;
+}
+
+.contentItem .contentCardList .addCard p {
+    margin: 0px auto;
+
+    padding: 0px;
+}
+    
+.contentItem .contentCardList .cardImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    min-height: 100%;
+    max-height: 100%;
+
+    min-width: 100%;
+    max-width: 100%;
+
+    background-color: white;
+}
+
+.contentItem .contentCardList .cardInfo {
+    position: absolute;
+    bottom: 0px;
+
+    min-height: 50px;
+    max-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+
+    background-color: rgba(57, 73, 171, 0.8);
+    color: white;
+}
+
+.contentItem .contentCardList .cardInfo > .cardInfoContent {
+    top: 0px;
+    left: 0px;
+    
+    padding: 5px;
+    max-width: 100%;
+
+    overflow: hidden;
+}
+
+.deleteCard {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    color: red;
+
+    max-width: 5px;
+    max-height: 5px;
+    
+    width: 100%;
+    height: 100%;
+}
+
+/* New product */
+.newProduct {
+    width: 100%;
+    height: auto;
+
+    background-color: #3949ab;
+    color: white;
+    padding: 10px;
+}
+
+/* Product */
+.product .text-bg {
+    background-color: #7986cb;
+    min-width: 100%;
+    height: 100%;
+
+    padding: 10px;
+}
+
+.product .text-bg h5 {
+    text-align: center;
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+.product .text-bg p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.product .imgList {
+    background-color: #5c6bc0;
+}
+
+/* Search bar */
+.searchBarArea {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+/* Side nav */
+.sidenav#mobile-demo {
+    background-color: #5c6bc0 !important;
+}
+
+.sidenav#mobile-demo a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidenav#mobile-demo .valign-wrapper {
+    height: 100%;
+    max-height: 36px;
+}

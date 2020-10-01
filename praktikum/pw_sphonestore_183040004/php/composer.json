@@ -1,0 +1,6 @@
+{
+    "require": {
+        "neverbounce/neverbounce-php": "^4.1",
+        "phpmailer/phpmailer": "^6.1"
+    }
+}

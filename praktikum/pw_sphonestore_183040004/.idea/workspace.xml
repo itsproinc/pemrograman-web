@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3994fe2c-671e-42be-9c5c-1e20caf2a8f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/0008fe0ddb5c8469ce34461d119a70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/11bd8d2901bbb53523bd3de2af4d22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2714899ab24056e90f74b76121faec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2c72d1b46fceb7362e1ad2f954facb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/348db58a8f9099c5aa1ecd8b445a43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/46a09970e58968f953406bfa143d31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/549a6da3edc11005b639311abf5038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/744f72e266bf327a819c79d00a85f9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/748400d074b887e83045fcbcf16286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/76da27dacbca973d316163fd719a9a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/84f49f309ceadf7594638875d21b48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/8793c55a1aa1a688f84d9ce2e39240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/9fc8863c3668b3ea626317961131c7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bd212f5d24990964d9490d1caaa88e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/c108cba7138eb5c8ef1291ffff0b17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sphonestore.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sphonestore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sphonestore.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sphonestore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/php/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/php/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/navbarnomenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/navbarnomenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/sphonestore.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/sphonestore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/php/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/php/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/php/vendor/composer" />
+      <path value="$PROJECT_DIR$/php/vendor/neverbounce/neverbounce-php" />
+      <path value="$PROJECT_DIR$/php/vendor/phpmailer/phpmailer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hgdRnxnhN0QrtVFrLFriLxzZXD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3994fe2c-671e-42be-9c5c-1e20caf2a8f1" name="Default Changelist" comment="" />
+      <created>1600436665216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600436665216</updated>
+      <workItem from="1600436666988" duration="17923000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1165" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600451298952">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1165" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1600451298952" />
+    <state x="899" y="149" width="587" height="801" key="find.popup" timestamp="1600456833154">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="899" y="149" width="587" height="801" key="find.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1600456833154" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1600456383058">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1600456383058" />
+  </component>
+</project>
